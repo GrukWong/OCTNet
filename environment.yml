@@ -1,0 +1,9 @@
+name: retinal-oct-classification
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip>=23.0
+  - pip:
+      - -r requirements.txt

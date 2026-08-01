@@ -1,0 +1,29 @@
+project:
+  name: retinal-oct-classification
+
+data:
+  root: data/RetinalOCT_Dataset
+  image_size: 224
+  normalization:
+    mean: [0.210, 0.210, 0.210]
+    std: [0.182, 0.182, 0.182]
+
+loader:
+  batch_size: 64
+  num_workers: 4
+  pin_memory: true
+  persistent_workers: true
+  prefetch_factor: 4
+
+training:
+  epochs: 20
+  seed: 42
+  deterministic: false
+  learning_rate: 0.0005
+  weight_decay: 0.00003
+  label_smoothing: 0.1
+  scheduler_t_max: 20
+  scheduler_eta_min: 0.000001
+
+output:
+  root: outputs/train
