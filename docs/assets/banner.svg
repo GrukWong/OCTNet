@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">OCTNet retinal OCT classification</title>
+  <desc id="description">Blue and teal banner for an eight-class retinal OCT classification project.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071b3f"/>
+      <stop offset="0.55" stop-color="#0b4f6c"/>
+      <stop offset="1" stop-color="#11a6a1"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c7fbff" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#c7fbff" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" fill="url(#background)"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M720 88 C810 28 970 32 1150 110" stroke="#8cebe9" stroke-width="4" opacity="0.35"/>
+    <path d="M675 132 C835 65 1010 78 1180 149" stroke="#d8ffff" stroke-width="9" opacity="0.55"/>
+    <path d="M640 169 C810 120 1030 124 1200 188" stroke="url(#scan)" stroke-width="17"/>
+    <path d="M660 211 C855 171 1020 183 1195 230" stroke="#88dddd" stroke-width="8" opacity="0.55"/>
+    <path d="M700 249 C865 221 1030 235 1160 284" stroke="#3cbdbd" stroke-width="5" opacity="0.6"/>
+  </g>
+  <circle cx="110" cy="92" r="18" fill="#66e4dd" opacity="0.9"/>
+  <circle cx="150" cy="92" r="18" fill="#66e4dd" opacity="0.55"/>
+  <text x="90" y="185" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700">OCTNet</text>
+  <text x="94" y="231" fill="#baf8f4" font-family="Arial, Helvetica, sans-serif" font-size="25" letter-spacing="3">RETINAL OCT IMAGE CLASSIFICATION</text>
+  <text x="94" y="281" fill="#d9ffff" font-family="Arial, Helvetica, sans-serif" font-size="19">ConvNeXt-inspired CNN · SE Attention · 8-class Disease Recognition</text>
+</svg>
