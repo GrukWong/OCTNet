@@ -215,4 +215,4 @@ If this repository is useful in your work, please cite it after replacing the au
 ## Acknowledgements
 
 - The Retinal OCT C8 dataset and its contributors.
-- [ConvNeXt](https://arxiv.org/abs/2201.03545), [Squeeze-and-Excitation Networks](https://arxiv.org/abs/1709.01507), [label smoothing](https://arxiv.org/abs/1512.00567), and [Random Erasing](https://arxiv.org/abs/1708.04896).
+- [ConvNeXt](https://arxiv.org/abs/2201.03545), [Squeeze-and-Excitation Networks](https://arxiv.org/abs/1709.01507).
