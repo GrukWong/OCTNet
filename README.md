@@ -17,7 +17,7 @@
 
 ## Project Overview
 
-OCTNet classifies retinal optical coherence tomography (OCT) images into eight categories: `AMD`, `CNV`, `CSR`, `DME`, `DR`, `DRUSEN`, `MH`, and `NORMAL`. The project turns the original course notebook into a reproducible PyTorch training, evaluation, and single-image inference pipeline.
+OCTNet classifies retinal optical coherence tomography (OCT) images into eight categories: `AMD`, `CNV`, `CSR`, `DME`, `DR`, `DRUSEN`, `MH`, and `NORMAL`. The project turns the original course project into a reproducible PyTorch training, evaluation, and single-image inference pipeline.
 
 ## Highlights
 
