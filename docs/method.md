@@ -2,7 +2,7 @@
 
 ## Architecture
 
-`OCTNet` is a custom five-stage CNN that processes RGB images resized to 224×224. It preserves the architecture used in the original course notebook:
+`OCTNet` is a custom five-stage CNN that processes RGB images resized to 224×224. 
 
 | Stage | Input → output channels | SE attention | Downsampling |
 | --- | --- | --- | --- |
